@@ -46,7 +46,7 @@ DATA_DIR = Path("./data")
 # 7 binary classification datasets
 ALL_DATASETS = [
     "breast_cancer", "diabetes", "credit-g",
-    "shoppers", "magic", "default", "adult",
+    "australian", "magic", "default", "adult",
 ]
 
 # 10 experimental conditions

@@ -32,7 +32,7 @@ DATA_DIR     = Path("./data")
 SYN_CACHE_DIR = DATA_DIR / "syn_cache" / "exp_privacy_v3"
 REAL_CACHE_DIR = RESULTS_BASE / "exp_privacy_v3" / "real_baselines"
 
-DEFAULT_DATASETS = ["adult", "breast_cancer", "credit-g", "default", "diabetes", "magic", "shoppers"]
+DEFAULT_DATASETS = ["adult", "breast_cancer", "credit-g", "default", "diabetes", "magic", "australian"]
 DEFAULT_SEEDS    = [0, 1, 2, 3, 4]
 EPSILON_VALUES   = [0.1, 0.5, 1.0, 5.0, 10.0]
 DP_GENERATORS    = ["dpgan", "pategan"]   # equal status

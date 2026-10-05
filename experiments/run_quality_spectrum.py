@@ -45,7 +45,7 @@ DATA_DIR = Path("./data")
 ALL_DATASETS = [
     "breast_cancer", "diabetes", "credit-g",          # small, binary
     "kin8nm",                                          # small, regression
-    "shoppers", "magic",                               # medium, binary
+    "australian", "magic",                               # medium, binary
     "california_housing",                              # medium, regression
     "default", "adult",                                # large, binary
     "news",                                            # large, regression

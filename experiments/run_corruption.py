@@ -53,7 +53,7 @@ MAX_CTX = 2000
 # 7 binary classification datasets
 ALL_DATASETS = [
     "breast_cancer", "diabetes", "credit-g",
-    "shoppers", "magic", "default", "adult",
+    "australian", "magic", "default", "adult",
 ]
 
 # 8 synthetic generators (loaded from SyntheticDataStore)

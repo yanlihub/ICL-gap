@@ -4,9 +4,9 @@ __pycache__/
 *$py.class
 
 # Data and cached results (avoid committing large files)
-data/
-results/
-logs/
+/data/
+/results/
+/logs/
 *.npz
 *.pkl
 *.csv

@@ -33,7 +33,7 @@ def _ensure_tabsyn_on_path() -> None:
     if not TABSYN_ROOT.exists():
         raise ImportError(
             f"TabSyn not found at {TABSYN_ROOT}. "
-            "Run: bash scripts/clone_tabsyn.sh"
+            "Run: git clone https://github.com/amazon-science/tabsyn.git tabsyn"
         )
     try:
         import tabsyn  # noqa: F401

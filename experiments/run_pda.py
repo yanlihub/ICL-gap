@@ -34,7 +34,7 @@ DATA_DIR     = Path("./data")
 # Final 10-dataset benchmark (fixed 2026-03-13)
 ALL_DATASETS = [
     "adult", "breast_cancer", "california_housing", "credit-g",
-    "default", "diabetes", "kin8nm", "magic", "news", "shoppers",
+    "default", "diabetes", "kin8nm", "magic", "news", "australian",
 ]
 ALL_GENERATORS = [
     "random", "marginal", "gmm", "smote",

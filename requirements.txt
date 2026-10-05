@@ -1,17 +1,20 @@
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=1.0.0
-torch>=2.0.0
-tqdm>=4.60.0
-pyyaml>=5.4.1
-xgboost>=1.5.0
-tabpfn
-tabicl
+# Versions used for the paper experiments (Python 3.12).
+# synthcity requires torch<2.3 and numpy<2.
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.6.1
 scipy
-imbalanced-learn
-openml
-POT
-prdc
-skrub
-synthcity
+joblib<1.6               # skrub 0.7.2 needs joblib.externals.cloudpickle
+torch==2.2.2
+tabpfn==6.4.1
+tabicl==2.0.3
+synthcity==0.2.12
+skrub==0.7.2
+openml==0.15.1
+xgboost==2.1.4
+imbalanced-learn==0.14.1
+POT==0.9.6.post1
+prdc==0.2
+tqdm
+pyyaml
 matplotlib
